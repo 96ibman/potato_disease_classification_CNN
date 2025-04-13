@@ -1,7 +1,7 @@
 
 # Potato Disease Classification using CNN
 
-This is a python tensorflow project on detecting disease in a potato leaf.
+This is a TensorFlow CNN Model for detecting disease in a potato leaf.
 
 ## Dataset
 
@@ -11,9 +11,9 @@ using the potato folders.
 The dataset contains (256 x 256) RGB images of healthy, early blight, and late 
 blight leaves
 
-Examples
-![Screenshot](https://i.ibb.co/b7Q00kH/wr.png)
+Examples:
 
+<img src="images/examples.png" alt="examples" width="500"/>
 
 The overall samples are 2152, distributed as 1000 late blight, 
 1000 early blight, and 152 healthy. Those images were split into 70% 
@@ -58,21 +58,22 @@ val_data = validation.flow_from_directory(VAL_PATH,
 ```
 
 ## Model Architecture
-![Screenshot](https://i.ibb.co/qgPQKY2/Screenshot-2022-09-16-152412.png )
+
+<img src="images/model.png" alt="model" width="500"/>
+
+## Note
+This model was utilized (deployed) in a python Flask App in this [repo](https://github.com/96ibman/FlaskApp-potato-disease-classification)
 
 
-## Authors
+## Author
 
 - [Ibrahim Nasser](https://github.com/96ibman)
 
 
 ## Links
-- [Website](https://ibrahim-nasser.com/)
-- [Blog](https://blog.ibrahim-nasser.com/)
+- [Website](https://96ibman.github.io/ibrahim-nasser/)
 - [LinkedIn](https://www.linkedin.com/in/ibrahimnasser96/)
-- [Twitter](https://twitter.com/mleng_ibrahimy)
-- [YT Channel](https://www.youtube.com/channel/UC7N-dy3UbSBHnwwv-vulBAA)
-
+- [Twitter](https://twitter.com/mleng_ibrahim)
 
 
 
